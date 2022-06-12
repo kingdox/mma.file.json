@@ -7,11 +7,11 @@ using System.IO;
 #endregion
 namespace MMA.File_Json
 {
-    public static class Key
+    public static partial class Key
     {
-        public const string Load = "FILE_Json_Load";
+        public static string Load = "FILE_Json_Load";
     }
-    public sealed class File_Json_Module : Module
+    public sealed partial class File_Json_Module : Module
     {
         #region References
         //[Header("Applications")] //[SerializeField] public ApplicationBase interface_Json;
